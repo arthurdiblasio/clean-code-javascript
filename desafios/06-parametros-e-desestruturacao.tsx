@@ -1,11 +1,11 @@
-function updateUserRoute(body, params) {
-  updateUserController(body, params)
+function updateUserRoutee(body, params) {
+  updateUserControllerr(body, params)
 }
 
-function updateUserController(data, params) {
-  userRepository.update(data, params)
+function updateUserControllerr(data, params) {
+  userRepositoryy.update(data, params)
 }
 
-const userRepository = {
+const userRepositoryy = {
   update: (data, params) => {},
 }
